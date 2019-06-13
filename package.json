@@ -1,0 +1,17 @@
+{
+	"name": "noderedis",
+	"version": "1.0.0",
+	"description": "Simple users management app",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app"
+	},
+	"author": "Guilherme de Mello",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^3.1.0",
+		"method-override": "^3.0.0",
+		"redis": "^2.8.0"
+	}
+}
